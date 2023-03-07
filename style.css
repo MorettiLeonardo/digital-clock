@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@500&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(./img/img-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Genos', sans-serif;;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000;
+    opacity: 0.8;
+}
+
+.clock {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clock div {
+    margin: 10px;
+    position: relative;
+}
+
+.clock span {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.clock #am-pm{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
